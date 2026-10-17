@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../IMAGE/pn.jpg);
+    background-repeat: no-repeat;
+    background-attachment: flex;
+    background-position: center;
+    background-size: cover;
+    color: #2c3e50;
+    line-height: 1.0;
+}
+
+header {
+    background-color: rgba(128, 128, 128,0.1);
+    color: rgb(250,200,150);
+    text-align: center;
+    padding: 10px 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    position: relative;
+    text-decoration: none;
+    gap: 20px;
+}
+
+header h1 {
+    font-size: 3.5em;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+}
+
+.search-box {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.search-box input {
+    width: 350px;
+    padding: 10px 15px;
+    border-radius: 30px 0 0 30px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.search-box button {
+    padding: 10px 20px;
+    border-radius: 0 30px 30px 0;
+    border: none;
+    cursor: pointer;
+    background: #667eea;
+    color: white;
+    font-size: 1.1em;
+    transition: .3s;
+}
+
+.search-box button:hover {
+    background: #4b5cd9;
+}
+
+nav {
+    background:transparent;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+nav ul li {
+    margin: 10px 20px;
+}
+nav ul li a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+nav ul li a:link {
+    background: #000000;
+    color: green;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(102,126,234,0.4);
+}
+
+nav ul li a:visited {
+    background: #C0C0C0;
+    color: green;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(102,126,234,0.4);
+}
+nav ul li a:hover {
+    background:#8FBC8F;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(102,126,234,0.4);
+}
+nav ul li a:active {
+    background: #ff0000;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(102,126,234,0.4);
+}
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+ 
+
+.card {
+    background: linear-gradient(to right,rgb(255,255,120),rgb(60,100,150));
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+    text-align: center;
+    width 80%;
+    marign:20px auto;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 25px 50px rgba(102,126,234,0.3);
+}
+.card h2 {
+    color: #667eea;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.large-text { font-size: 1.6em; color: #667eea; font-weight: 600; }
+.medium-text { font-size: 1.1em; color: #2c3e50; }
+.small-text { font-size: 0.9em; color: #764ba2; }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+th {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 15px;
+}
+td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+footer a { color: #667eea; margin: 0 15px; text-decoration: none; }
+.fa-brands fa-facebook{
+    font-size: 15px;
+}
+.icon{
+    gap: 50px;
+    margin: 20px;
+    font-weight: bold;
+   font-style: italic;
+    
+    
+}
+
+
+.contact-me{
+    background-color: antiquewhite;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    width: 600px;
+    margin-left: 100px;
+    padding: 12px;
+}
+ .contact-me #form input{
+    border: none;
+  font-size: 15px;
+}
+ button{
+   border-radius: 10px;
+   padding: 5px;
+    background-color: rgb(255, 166, 0);
+   
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 { font-size: 2.5em; }
+    nav ul { flex-direction: column; }
+    nav ul li { margin: 10px 0; }
+     .search-box input {
+        width: 70%;
+    }
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none; /* hidden on desktop */
+    font-size: 2em;
+    cursor: pointer;
+    color: tomato;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+/* Hide the checkbox */
+#menu-toggle {
+    display: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    nav ul.menu {
+        display: none; /* hide menu by default */
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background: rgba(255,255,255,0.95);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 10px 0;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    nav ul.menu li {
+        margin: 10px 0;
+    }
+
+    /* Show hamburger */
+    .hamburger {
+        display: block;
+    }
+
+    /* Toggle menu when checkbox is checked */
+    #menu-toggle:checked + .hamburger + ul.menu {
+        display: flex;
+    }
+}

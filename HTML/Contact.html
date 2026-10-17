@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Abel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/Style1.css">
+    <script language="javascript" src="../Java Script/Contact.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+       
+    </header>
+
+    <nav>
+        <input type="checkbox" name="" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <ul class="menu">
+            <li><a href="home.html"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="About.html"><i class="fa-solid fa-book"></i>About</a></li>
+            <li><a href="Biography.html"><i class="fa-solid fa-book-user"></i>Biography</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-phone"></i>Contact</a></li>
+            <li><a href="Gallery.html"><i class="fa-solid fa-image"></i>Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="card">
+            <h2> if you can contact with me Let's Connect!</h2>
+            <p class="large-text">Email me anytime:</p><br>
+            <p>Contact me by email: 
+    <a href="mailto:abelaschalew10@gmail.com">abelaschalew10@gmail.com</a>
+</p>
+           <div class="icon">
+            <p>get my facebook and instagram chanel.</p>
+             <a href=""><i class="fa-brands fa-telegram" style="font-size: 30px; background-color:rgb(0, 0, 0 / 1.0); color: blue; border-radius: 10px;"></i></a>
+            <a href="https://www.instagram.com/AbelAschalew?igsh=NWR5eGtjM3RmdW9p"><i class="fa-brands fa-instagram"
+                style="font-size: 30px; 
+                border-radius: 10px; 
+                background: #833ab4; 
+                background: linear-gradient(to right,#833ab4,  #fd1d1d, #fcb045);"></i></a>
+           </div>
+ <div class="contact-me">
+    <form name="formname" onsubmit="return Check()">
+     <label for="fname">first name: </label>
+     <input type="text" name="Fname" id="fname">
+     <p id="fn" style="color: red;"></p><br><br>
+
+     <label for="lname">last name: </label>
+     <input type="text" name="Lname" id="lname">
+     <p id="ln" style="color: red;"></p><br><br>
+
+      <label for="password">password: </label>
+      <input type="password" name="password" id="password">
+      <p id="pw" style="color: red;"></p><br><br>
+
+      <label for="em">email</label>
+      <input type="email" name="Email" id="em">
+      <p id="eml" style="color: red;"></p><br><br>
+
+      <button type="submit" class="submit">Register</button>
+
+
+   </form>
+  </div>
+</body>
+</html>
